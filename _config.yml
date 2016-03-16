@@ -1,0 +1,31 @@
+url:            http://www.holisticpetcompany.co.uk
+name:           The Holistic Pet Company
+description:    Natural pet health products
+payments:       sales@holisticpetcompany.co.uk
+exclude:        [README.md]
+paginate:       10
+paginate_path:  "/blog/:num"
+
+navigation:
+  - text: Home
+    url: /
+  - text: Blog
+    url: /blog/
+  - text: Products
+    url: /products/
+  - text: About
+    url: /about/
+  - text: Contact
+    url: /contact/
+
+shop:
+  shipping: "4.50"
+  products:
+    tin:
+      price: "5.20"
+      shipping: "0.00"
+      max: 3
+    refill:
+      price: "3.50"
+      shipping: "0.00"
+      max: 4
