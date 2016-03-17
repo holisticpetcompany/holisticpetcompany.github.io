@@ -1,0 +1,25 @@
+<div class="simpleCart_checkout_group btn-group btn-group-lg">
+{% if page.title == 'Basket' %}
+  <button type="button" class="btn btn-primary btn-noaction"><span class="glyphicon glyphicon-shopping-cart"></span></button>
+  <button type="button" class="btn btn-default btn-noaction"><span class="simpleCart_quantity"></span> items</button>
+  <button type="button" class="btn btn-default btn-noaction hidden-xs"><span class="simpleCart_grandTotal"></span> (incl P&amp;P)</button>
+{% else %}
+  <a role="button" class="btn btn-primary" href="/products/basket.html"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+  <a role="button" class="btn btn-default" href="/products/basket.html"><span class="simpleCart_quantity"></span> items</a>
+  <a role="button" class="btn btn-default hidden-xs" href="/products/basket.html"><span class="simpleCart_grandTotal"></span> (incl P&amp;P)</a>
+{% endif %}
+  <div class="btn-group btn-group-lg">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+      <span class="caret"></span>
+      <span class="sr-only">Toggle Dropdown</span>
+    </button>
+    <ul class="dropdown-menu" role="menu">
+      <li><a href="/products/basket.html">View basket</a></li>
+      <li><a href="javascript:;" class="simpleCart_empty">Empty basket</a></li>
+{% comment %}
+      <li class="divider"></li>
+      <li><a href="javascript:;" class="simpleCart_checkout">Checkout</a></li>
+{% endcomment %}
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,98 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#branding {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#branding h1, #branding h1 a, #branding .lead {
+  font-family: 'EB Garamond', serif;
+  color: #496949;
+}
+#branding h1, #branding h1 a, #branding .lead {
+  text-align: center;
+}
+#branding img.logo {
+  max-width: 240px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  margin-bottom: 10px;
+}
+
+.footer .dl-horizontal dt {
+  text-align: right;
+}
+
+.footer .footer-col {
+  padding-bottom: 20px;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: #496949;
+}
+
+.content {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.row img {
+  margin-bottom: 15px;
+}
+
+.table > tfoot > tr > td {
+  font-weight: bold;
+}
+
+.table > tfoot > tr.total > td {
+  border-top: 2px solid #dddddd;
+}
+
+.addthis_toolbox {
+  padding-bottom: 10px;
+}
+
+img.glyphicon {
+  margin-bottom: 6px;
+}
+
+@media (min-width: 768px) {
+  .content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .container {
+    max-width: 970px;
+  }
+}
+
+.simpleCart_shelfItem_group {
+  padding-bottom: 10px;
+}
+
+.simpleCart_shelfItem a.item_add {
+  text-decoration: none;
+}
+
+.simpleCart_checkout_group {
+  padding-bottom: 30px;
+}
+
+.simpleCart_checkout_group .btn-noaction,
+.simpleCart_shelfItem_group .btn-noaction {
+  cursor: default;
+}
+
+.payments_logo {
+  margin-top: 30px;
+}
+
+.payments_logo img {
+  max-width: 100%;
+}
+

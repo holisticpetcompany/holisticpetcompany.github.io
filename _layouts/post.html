@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<div class="row">
+  <div class="col-xs-12">
+    <h2>{{ page.title }}</h2>
+    <p class="meta">{{ page.date | date_to_string }} by {{ page.author }}</p>
+  </div>
+</div>
+<div class="row">
+{% if page.image %}
+  <div class="col-sm-3 col-md-4">
+{% assign imga = page.image | split:',' %}
+{% for img in imga %}
+<!-- image {{ img }} -->
+{% image default {{ img }} %}
+{% endfor %}
+  </div>
+  <div class="col-sm-9 col-md-8">
+{% else %}
+  <div class="col-xs-12">
+{% endif %}
+    <div class="post">
+{{ content }}
+      <h4><span class="glyphicon glyphicon-share"></span> Share</h4>
+<!-- AddThis Button BEGIN -->
+      <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+        <a class="addthis_button_facebook"></a>
+        <a class="addthis_button_twitter"></a>
+        <a class="addthis_button_pinterest_share"></a>
+        <a class="addthis_button_google_plusone_share"></a>
+      </div>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-521b4993601228e4"></script>
+<!-- AddThis Button END -->
+    </div>
+  </div>
+</div>
+
