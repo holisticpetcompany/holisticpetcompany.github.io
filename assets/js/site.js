@@ -108,11 +108,11 @@ simpleCart({
   cartColumns: [
     { attr: "name",       label: "Name" },
     { attr: "price",      label: "Price",     view: 'currency' },
-    { view: "decrement",  label: false,       text: '<span class="glyphicon glyphicon-minus-sign"></span>' },
+    { view: "decrement",  label: false,       text: '<i class="fa fa-minus"></i>' },
     { attr: "quantity",   label: "Qty" },
-    { view: "increment",  label: false,       text: '<span class="glyphicon glyphicon-plus-sign"></span>' },
+    { view: "increment",  label: false,       text: '<i class="fa fa-plus"></i>' },
     { attr: "total",      label: "SubTotal",  view: 'currency' },
-    { view: "remove",     label: false,       text: '<span class="glyphicon glyphicon-trash"></span>' }
+    { view: "remove",     label: false,       text: '<i class="fa fa-trash-o"></i>' }
   ],
   cartStyle: "table",
   checkout: {
