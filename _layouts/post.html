@@ -13,8 +13,7 @@ layout: default
   <div class="col-sm-3 col-md-4">
 {% assign imga = page.image | split:',' %}
 {% for img in imga %}
-<!-- image {{ img }} -->
-{% image default {{ img }} %}
+    <img class="img-rounded img-fluid" src="{{ img }}" title="image hosted at imgur.com">
 {% endfor %}
   </div>
   <div class="col-sm-9 col-md-8">
@@ -23,7 +22,7 @@ layout: default
 {% endif %}
     <div class="post">
 {{ content }}
-      <h4><span class="glyphicon glyphicon-share"></span> Share</h4>
+      <h4><i class="fa fa-share-alt"></i> Share</h4>
 <!-- AddThis Button BEGIN -->
       <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
         <a class="addthis_button_facebook"></a>
