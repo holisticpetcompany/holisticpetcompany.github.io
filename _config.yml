@@ -5,7 +5,7 @@ payments:       sales@holisticpetcompany.co.uk
 exclude:        [README.md]
 
 prose:
-  rooturl: "assets"
+  rooturl: "_posts"
   siteurl: "http://holisticpetcompany.github.io/"
   metadata:
     _posts:
