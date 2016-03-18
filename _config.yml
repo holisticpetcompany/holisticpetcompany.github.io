@@ -4,6 +4,31 @@ description:    Natural pet health products
 payments:       sales@holisticpetcompany.co.uk
 exclude:        [README.md]
 
+prose:
+  rooturl: "assets"
+  siteurl: "http://holisticpetcompany.github.io/"
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "author"
+        field:
+          element: "text"
+          label: "Author"
+          value: "Holly"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Image URL"
+          value: ""
+
 navigation:
   - text: Home
     url: /
