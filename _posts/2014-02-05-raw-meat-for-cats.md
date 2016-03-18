@@ -4,6 +4,7 @@ title: The benefits of a raw meaty diet for cats
 image: http://i.imgur.com/mNcn3pMl.jpg
 author: Naomi Woodspring
 excerpt_separator: <!-- read more -->
+published: true
 ---
 
 The first thing that people comment on when they see my cats, Charlie and Gibson, are their beautiful shiny coats. I then go on to explain that we make their food and their shiny coats are only part of the benefits of my cats' diet.

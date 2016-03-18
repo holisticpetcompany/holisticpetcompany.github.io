@@ -4,6 +4,7 @@ title: Top tips for senior cat care
 image: http://i.imgur.com/YqKye7jl.jpg
 author: Holly
 excerpt_separator: <!-- read more -->
+published: true
 ---
 
 Despite our first product being for dogs we love cats as well here at the Holistic Pet Company. That's why we want to share some top tips for natural cat health care...

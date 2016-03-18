@@ -4,6 +4,7 @@ title: Holidays with pets
 image: http://i.imgur.com/Q4PkNnSl.jpg
 author: Holly Mash
 excerpt_separator: <!-- read more -->
+published: true
 ---
 
 Making sure that your pet has a safe and comfortable journey when you take it on holiday is crucial; whether you are travelling by car, boat or even plane!

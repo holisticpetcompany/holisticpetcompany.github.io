@@ -4,6 +4,7 @@ title: Acupuncture for Arthritic Animals
 image: http://i.imgur.com/Os7iQQsl.jpg
 author: Holly
 excerpt_separator: <!-- read more -->
+published: true
 ---
 
 Winter is the season for blustery dog walks followed by crumpets in front of a roaring log fire, isn't it? Well, it's also the time of year when our ageing pets may start to suffer with their creaky, aching, arthritic joints. 

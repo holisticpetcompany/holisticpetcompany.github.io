@@ -4,6 +4,7 @@ title: Juliette de Bairacli Levy - the grandmother of veterinary herbalism
 image: http://i.imgur.com/dPFIf8El.jpg
 author: Holly
 excerpt_separator: <!-- read more -->
+published: true
 ---
 
 Juliette de Bairacli Levy was a pioneer of animal herbalism and travelled the world for over fifty years discovering the secrets of traditional herbal medicine for animals.

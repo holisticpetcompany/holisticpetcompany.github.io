@@ -4,6 +4,7 @@ title: Meet the Mobile Cat Vet
 image: http://i.imgur.com/jUXYLqSl.jpg
 author: Amy Bergs DVM MRCVS
 excerpt_separator: <!-- read more -->
+published: true
 ---
 
 Ever heard of a mobile cat vet? Neither had I. But seven years in general small animal practice taught me that it was something that the feline population might appreciate!

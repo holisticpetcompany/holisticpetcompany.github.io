@@ -3,6 +3,7 @@ layout: post
 title: Teadogs launch!
 image: http://i.imgur.com/43KOtcMl.jpg
 author: Holly
+published: true
 ---
 
 The very first batch of our herbal tea for dogs has been dispatched to Stripy Dog, a lovely family run pet shop in Westbury on Trym, Bristol.

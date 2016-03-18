@@ -3,6 +3,7 @@ layout: post
 title: Echinacea to strengthen the immune system
 image: http://i.imgur.com/8okfkJxl.jpg
 author: Holly
+published: true
 ---
 
 Echinacea is popular at this time of year when it is widely used to strengthen and support the immune system when coughs and colds are rife; but don't forget that this can be a useful herbal remedy for our pets as well.

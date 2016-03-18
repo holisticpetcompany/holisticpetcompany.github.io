@@ -4,6 +4,7 @@ title: The Holistic Dog
 image: http://i.imgur.com/GoSbhnll.jpg
 author: Holly
 excerpt_separator: <!-- read more -->
+published: true
 ---
 
 How could we have forgotten to put up a post about The Holistic Pet Company founder Holly Mash's best selling book on natural dog care?!

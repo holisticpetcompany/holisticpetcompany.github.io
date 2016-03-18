@@ -4,6 +4,7 @@ title: Keeping safe & calm on bonfire night
 image: http://i.imgur.com/bjXOBxwl.jpg
 author: Holly
 excerpt_separator: <!-- read more -->
+published: true
 ---
 
 By planning ahead and using the following practical tips and natural remedies, you can help your pets to stay safe and feel less anxious on November 5th.

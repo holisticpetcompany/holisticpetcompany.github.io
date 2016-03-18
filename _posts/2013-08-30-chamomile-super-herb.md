@@ -3,6 +3,7 @@ layout: post
 title: Chamomile - a true super herb!
 image: http://i.imgur.com/JfeYCDSl.jpg, http://i.imgur.com/8ZGtXRBl.jpg
 author: Holly
+published: true
 ---
 
 Chamomile deserves a special mention as it is has so many incredible properties. We use it in both our Zen dog as well as our Smelly dog tea, for it's soothing, calming and anti-spasmodic effects that can help to ease digestive complaints.

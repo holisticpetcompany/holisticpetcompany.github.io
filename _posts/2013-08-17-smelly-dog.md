@@ -3,6 +3,7 @@ layout: post
 title: Smelly dog - a herbal tea to help a windy dog's digestion
 image: http://i.imgur.com/J0fBQzdl.jpg
 author: Holly
+published: true
 ---
 
 Our Smelly dog tea is a herbal infusion especially formulated to promote a healthy digestion and to help with antisocial, (and unhealthy), problems such as bloating and flatulence.
