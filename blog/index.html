@@ -12,9 +12,9 @@ title: Blog
 </div>
 <div class="row">
 {% if post.image %}
-{% assign imga = post.image | split:',' %}
+{% assign img = post.image | split:',' | first %}
   <div class="col-sm-3 col-md-4">
-    <img class="img-rounded img-fluid" src="{{ imga | first }}" title="image hosted at imgur.com">
+    <img class="img-rounded img-fluid" src="{{ img }}" title="image hosted at imgur.com">
   </div>
   <div class="col-sm-9 col-md-8">
 {% else %}
