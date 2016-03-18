@@ -1,0 +1,31 @@
+---
+layout: default
+title: Basket
+---
+
+<div class="row">
+  <div class="col-xs-12">
+    <p>Your basket contains the following items. If you are interested in purchasing larger quantities (more than six tins or three refills), please <a href="/contact/">contact us</a>. Please see our <a href="/products/terms-and-conditions.html">terms and conditions</a> for details of our <a href="/products/terms-and-conditions.html#returns">returns policy</a> and <a href="/products/terms-and-conditions.html#postage">postage and packing charges</a>.</p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-10 col-sm-offset-1">
+    <div class="simpleCart_items"></div>
+{% include basketstate.html %}
+    <div class="simpleCart_checkout_group btn-group btn-group-lg">
+      <a role="button" class="btn btn-primary simpleCart_checkout" href="javascript:;">Checkout</a>
+    </div>
+    <div class="simpleCart_checkout_group btn-group btn-group-lg">
+      <a role="button" class="btn btn-default" href="https://www.paypal.com/uk/webapps/mpp/paypal-popup" title="How PayPal Works" onclick="javascript:window.open('https://www.paypal.com/uk/webapps/mpp/paypal-popup','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700'); return false;"><img style="margin: 0;" src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" border="0" alt="PayPal Logo"></a>
+      </button>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <div class="panel panel-primary">
+      <div class="panel-body">Please read our <a href="/products/terms-and-conditions.html">terms and conditions</a> before placing your order.</div>
+    </div>
+  </div>
+</div>
+
