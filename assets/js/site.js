@@ -193,7 +193,7 @@ simpleCart.bind('beforeAdd', function(item) {
 {% endfor %}
   }
   var label = $('.simpleCart_shelfItem_group .item_name:contains('+item.get('name')+')').parents('.simpleCart_shelfItem_group').find('.label.item_not_added');
-  label.show().delay(8000).fadeOut();
+  label.removeAttr('hidden').show().delay(8000).fadeOut();
   return false;
 });
 
@@ -224,7 +224,8 @@ simpleCart.shipping(function() {
 });
 
 simpleCart.bind('afterAdd', function(item) {
+  console.log(item.get('name'));
   var label = $('.simpleCart_shelfItem_group .item_name:contains('+item.get('name')+')').parents('.simpleCart_shelfItem_group').find('.label.item_added');
-  label.show().delay(1000).fadeOut();
+  label.removeAttr('hidden').show().delay(1000).fadeOut();
 });
 

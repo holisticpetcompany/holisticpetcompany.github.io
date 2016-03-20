@@ -44,11 +44,15 @@ navigation:
 shop:
   shipping: "4.50"
   products:
-    tin:
+    shampoo-250ml:
+      price: "12.00"
+      shipping: "0.00"
+      max: 3
+    tea-tin:
       price: "5.20"
       shipping: "0.00"
       max: 3
-    refill:
+    tea-refill:
       price: "3.50"
       shipping: "0.00"
       max: 4
