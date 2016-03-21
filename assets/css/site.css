@@ -24,8 +24,9 @@ body {
   margin-bottom: 10px;
 }
 
-.footer .dl-horizontal dt {
-  text-align: right;
+.footer .dl-horizontal {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .footer .footer-col {
@@ -43,6 +44,10 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
 .row img {
   margin-bottom: 15px;
+}
+
+.card img {
+  margin-bottom: 0;
 }
 
 .table > tfoot > tr > td {
