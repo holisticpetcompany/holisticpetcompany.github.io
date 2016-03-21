@@ -48,6 +48,18 @@ shop:
       price: "12.00"
       shipping: "0.00"
       max: 3
+    biscuits-box:
+      price: "3.60"
+      shipping: "0.00"
+      max: 3
+    rescue-balm-tin:
+      price: "9.50"
+      shipping: "0.00"
+      max: 3
+    paw-balm-tin:
+      price: "7.00"
+      shipping: "0.00"
+      max: 3
     tea-tin:
       price: "5.20"
       shipping: "0.00"
@@ -56,3 +68,4 @@ shop:
       price: "3.50"
       shipping: "0.00"
       max: 4
+
