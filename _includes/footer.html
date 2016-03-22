@@ -6,21 +6,22 @@
         <a href="//www.facebook.com/holisticpetcompany" alt="Follow on Facebook" title="Follow on Facebook"><i class="fa fa-2x fa-facebook-square"></i></a>
         <a href="//twitter.com/holisticpetco" alt="Follow on Twitter" title="Follow on Twitter"><i class="fa fa-2x fa-twitter-square"></i></a>
       </div>
-      <a data-toggle="modal" href="#subscribe" class="btn btn-primary btn-sm">Subscribe by email</a>
+{% comment %}
+      <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#subscribe">Subscribe by email</button>
       <noscript>
         <p>Sorry, you'll need Javascript to follow us, but you can still access our site without javascript. Please check back again for updates, and <a href="/contact/">contact us</a> for more information.</p>
       </noscript>
       <div class="modal fade" id="subscribe" tabindex="-1" role="dialog" aria-labelledby="subscribe-label" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
               <h4 class="modal-title" id="subscribe-label">Subscribe to our blog</h4>
             </div>
             <div class="modal-body">
               <!-- MailChimp Signup Form BEGIN -->
-              <form role="form" id="mc-form" action="http://holisticpetcompany.us7.list-manage.com/subscribe/post?u=bf68a010400f78efe058f254d&amp;id=704394e54f" method="post">
-                <div class="form-group required">
+              <form role="form" id="mc-form" novalidate>
+                <div class="form-group">
                   <label class="control-label" for="mc-email">Email address (required)</label>
                   <input type="email" class="form-control" name="EMAIL" id="mc-email" placeholder="Enter email">
                 </div>
@@ -56,6 +57,7 @@
           </div>
         </div>
       </div>
+{% endcomment %}
     </div>
     <div class="footer-col col-sm-6 col-sm-pull-6">
       <h4><i class="fa fa-envelope-o"></i> Contact Us</h4>
