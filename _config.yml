@@ -61,11 +61,11 @@ shop:
       shipping: "0.00"
       max: 3
     tea-tin:
-      price: "5.20"
+      price: "7.99"
       shipping: "0.00"
       max: 3
     tea-refill:
-      price: "3.50"
+      price: "5.50"
       shipping: "0.00"
       max: 4
 
