@@ -68,4 +68,8 @@ shop:
       price: "5.50"
       shipping: "0.00"
       max: 4
+    sprinkles-pouch:
+      price: "7.99"
+      shipping: "0.00"
+      max: 4
 
