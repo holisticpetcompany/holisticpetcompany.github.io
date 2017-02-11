@@ -42,7 +42,7 @@ navigation:
     url: /contact/
 
 shop:
-  shipping: "4.50"
+  shipping: "4.00"
   products:
     shampoo-250ml:
       price: "12.00"
@@ -68,4 +68,8 @@ shop:
       price: "5.50"
       shipping: "0.00"
       max: 4
+    sprinkles-pouch:
+      price: "7.99"
+      shipping: "0.00"
+      max: 6
 
