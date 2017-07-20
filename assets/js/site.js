@@ -216,8 +216,9 @@ simpleCart.shipping(function() {
     cost += {{ site.shop.shipping }};
   }
 {% for product in site.shop.products %}
-  if (simpleCart.find({ type: '{{ product[0] }}' }).length > 0) {
-    cost += {{ product[1].shipping }};
+  p = simpleCart.find({ type: '{{ product[0] }}' });
+  if (p.length > 0) {
+    cost += Math.min(p[0].quantity() * {{ product[1].shipping }}, {{ product[1].shipping_max }});
   }
 {% endfor %}
   return cost;
