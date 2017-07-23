@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Teadogs – back by popular demand!
-image:  http://i.imgur.com/qryCG1vl.jpg
+image:  //i.imgur.com/SdHbt5Kl.jpg
 author: Holly Mash
 excerpt_separator: <!-- read more -->
 published: true
