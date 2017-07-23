@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Meet the Mobile Cat Vet
-image: http://i.imgur.com/jUXYLqSl.jpg
+image: //i.imgur.com/jUXYLqSl.jpg
 author: Amy Bergs DVM MRCVS
 excerpt_separator: <!-- read more -->
 published: true

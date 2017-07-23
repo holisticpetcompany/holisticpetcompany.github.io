@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Introducing Herbal Sprinkles 
-image:  http://i.imgur.com/qryCG1vl.jpg
+image: //i.imgur.com/qryCG1vl.jpg
 author: Holly Mash
 excerpt_separator: <!-- read more -->
 published: true
@@ -13,4 +13,4 @@ All our Sprinkles come in self seal pouches that will keep your herbal formulas 
 
 Add a Sprinkle to your dog's food before serving &ndash; and hey presto you've added a seasoning of healthy, 100% natural, zingy goodness to their meal! 
 
-For those of you that enjoy making your dog a cuppa and want to infuse the herbs as teas, you can! These Sprinkles can all be infused like a herbal tea and added to your dog's food or served (cool) as a drink.
+For those of you that enjoy making your dog a cuppa, don't worry – you can still buy our original herbal teas range on our Teadogs product page!

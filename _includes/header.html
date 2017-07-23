@@ -2,7 +2,7 @@
 <header>
   <div id="branding" class="row">
     <div class="col-xs-12 col-sm-4 col-md-3">
-      <img class="logo img-fluid" src="http://i.imgur.com/piq0BxKl.jpg" alt="The Holistic Pet Company Logo" title="The Holistic Pet Company (image hosted at imgur.com)">
+      <img class="logo img-fluid" src="//i.imgur.com/piq0BxKl.jpg" alt="The Holistic Pet Company Logo" title="The Holistic Pet Company (image hosted at imgur.com)">
     </div>
     <div class="col-xs-12 col-sm-8 col-md-9">
       <h1><a href="{{ site.url }}">{{ site.name }}</a></h1>
@@ -14,8 +14,15 @@
     <div id="navbar-collapse" class="collapse navbar-toggleable-xs">
       <ul class="nav navbar-nav">
 {% for link in site.navigation %}
-        <li class="nav-item{% if url == link.url %} active{% endif %}">
-          <a class="nav-link" href="{{link.url}}" title="{{link.title}}">{{link.text}}</a>
+        <li class="nav-item{% if link.children %} dropdown{% endif %}{% if url == link.url %} active{% endif %}">
+          <a class="nav-link{% if link.children %} dropdown-toggle{% endif %}" href="{{link.url}}" title="{{link.text}}"{% if link.children %} data-toggle="dropdown"{% endif %}>{{link.text}}</a>
+{% if link.children %}
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+{% for sublink in link.children %}
+            <a class="dropdown-item" href="{{sublink.url}}">{{sublink.text}}</a>
+{% endfor %}
+          </div>
+{% endif %}
         </li>
 {% endfor %}
         <li class="nav-item{% if url == '/products/basket.html' %} active{% endif %} pull-sm-right">

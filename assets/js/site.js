@@ -216,9 +216,12 @@ simpleCart.shipping(function() {
     cost += {{ site.shop.shipping }};
   }
 {% for product in site.shop.products %}
-  if (simpleCart.find({ type: '{{ product[0] }}' }).length > 0) {
-    cost += {{ product[1].shipping }};
+  p = simpleCart.find({ type: '{{ product[0] }}' });
+  pc = 0;
+  for (i = 0 ; i < p.length ; i++) {
+    pc += p[i].quantity() * {{ product[1].shipping }};
   }
+  cost += Math.min(pc, {{ product[1].shipping_max }});
 {% endfor %}
   return cost;
 });

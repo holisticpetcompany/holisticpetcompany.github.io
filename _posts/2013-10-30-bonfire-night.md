@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Keeping safe & calm on bonfire night
-image: http://i.imgur.com/bjXOBxwl.jpg
+image: //i.imgur.com/bjXOBxwl.jpg
 author: Holly
 excerpt_separator: <!-- read more -->
 published: true

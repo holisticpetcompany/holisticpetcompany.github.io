@@ -35,41 +35,22 @@ navigation:
   - text: Blog
     url: /blog/
   - text: Products
-    url: /products/
+    children:
+    - text: Sprinkles
+      url: /products/sprinkles/
+    - text: Teadogs
+      url: /products/teadogs/
   - text: About
     url: /about/
   - text: Contact
     url: /contact/
 
 shop:
-  shipping: "4.00"
+  shipping: "0"
   products:
-    shampoo-250ml:
-      price: "12.00"
-      shipping: "0.00"
-      max: 3
-    biscuits-box:
-      price: "3.60"
-      shipping: "0.00"
-      max: 3
-    rescue-balm-tin:
-      price: "9.50"
-      shipping: "0.00"
-      max: 3
-    paw-balm-tin:
-      price: "7.00"
-      shipping: "0.00"
-      max: 3
-    tea-tin:
+    pouch:
       price: "7.99"
-      shipping: "0.00"
-      max: 3
-    tea-refill:
-      price: "5.50"
-      shipping: "0.00"
-      max: 4
-    sprinkles-pouch:
-      price: "7.99"
-      shipping: "0.00"
+      shipping: "1.50"
+      shipping_max: "4"
       max: 6
 

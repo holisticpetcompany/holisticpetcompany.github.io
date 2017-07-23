@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Holidays with pets
-image: http://i.imgur.com/Q4PkNnSl.jpg
+image: //i.imgur.com/Q4PkNnSl.jpg
 author: Holly Mash
 excerpt_separator: <!-- read more -->
 published: true

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Holistic Dog
-image: http://i.imgur.com/GoSbhnll.jpg
+image: //i.imgur.com/GoSbhnll.jpg
 author: Holly
 excerpt_separator: <!-- read more -->
 published: true

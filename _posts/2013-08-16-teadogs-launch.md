@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Teadogs launch!
-image: http://i.imgur.com/43KOtcMl.jpg
+image: //i.imgur.com/43KOtcMl.jpg
 author: Holly
 published: true
 ---

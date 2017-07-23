@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Top tips for senior cat care
-image: http://i.imgur.com/YqKye7jl.jpg
+image: //i.imgur.com/YqKye7jl.jpg
 author: Holly
 excerpt_separator: <!-- read more -->
 published: true
