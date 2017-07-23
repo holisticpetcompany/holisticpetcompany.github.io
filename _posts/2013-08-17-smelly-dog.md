@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Smelly dog - a herbal tea to help a windy dog's digestion
-image: http://i.imgur.com/J0fBQzdl.jpg
+image: //i.imgur.com/J0fBQzdl.jpg
 author: Holly
 published: true
 ---

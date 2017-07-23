@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Echinacea to strengthen the immune system
-image: http://i.imgur.com/8okfkJxl.jpg
+image: //i.imgur.com/8okfkJxl.jpg
 author: Holly
 published: true
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Acupuncture for Arthritic Animals
-image: http://i.imgur.com/Os7iQQsl.jpg
+image: //i.imgur.com/Os7iQQsl.jpg
 author: Holly
 excerpt_separator: <!-- read more -->
 published: true

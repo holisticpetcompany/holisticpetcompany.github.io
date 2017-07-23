@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Juliette de Bairacli Levy - the grandmother of veterinary herbalism
-image: http://i.imgur.com/dPFIf8El.jpg
+image: //i.imgur.com/dPFIf8El.jpg
 author: Holly
 excerpt_separator: <!-- read more -->
 published: true

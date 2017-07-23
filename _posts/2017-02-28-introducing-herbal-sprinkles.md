@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Introducing Herbal Sprinkles 
-image:  http://i.imgur.com/qryCG1vl.jpg
+image: //i.imgur.com/qryCG1vl.jpg
 author: Holly Mash
 excerpt_separator: <!-- read more -->
 published: true

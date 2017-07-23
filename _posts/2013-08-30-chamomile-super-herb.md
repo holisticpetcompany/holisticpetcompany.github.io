@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Chamomile - a true super herb!
-image: http://i.imgur.com/JfeYCDSl.jpg, http://i.imgur.com/8ZGtXRBl.jpg
+image: //i.imgur.com/JfeYCDSl.jpg, http://i.imgur.com/8ZGtXRBl.jpg
 author: Holly
 published: true
 ---

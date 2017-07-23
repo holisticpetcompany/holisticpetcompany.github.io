@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: The benefits of a raw meaty diet for cats
-image: http://i.imgur.com/mNcn3pMl.jpg
+image: //i.imgur.com/mNcn3pMl.jpg
 author: Naomi Woodspring
 excerpt_separator: <!-- read more -->
 published: true
