@@ -32,14 +32,6 @@ prose:
 navigation:
   - text: Home
     url: /
-  - text: Blog
-    url: /blog/
-  - text: Products
-    children:
-    - text: Sprinkles
-      url: /products/sprinkles/
-    - text: Teadogs
-      url: /products/teadogs/
   - text: About
     url: /about/
   - text: Contact
